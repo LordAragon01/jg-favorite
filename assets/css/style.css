@@ -1,0 +1,32 @@
+.jg-slider{
+    height:50px !important;
+}
+
+.flex-viewport{
+	height:inherit !important;
+}
+
+.slidesjg{
+    list-style-type:none;
+    width:inherit;
+    height:50px !important;
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+}
+
+.slidesjg li{
+    background:none;
+    border:none;
+    height: inherit !important;
+}
+
+.style-1 .slidesjg li{
+    color:#fff;
+    background-color:#000 !important;
+}
+
+.style-2 .slidesjg li{
+    color:#000;
+    background-color:#ddd !important;
+}
